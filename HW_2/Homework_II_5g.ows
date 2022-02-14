@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Breast Cancer (1)" position="(106.0, 544.0)" />
+		<node id="1" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot (1)" position="(527.0, 544.0)" />
+		<node id="2" name="Preprocess" qualified_name="Orange.widgets.data.owpreprocess.OWPreprocess" project_name="Orange3" version="" title="Preprocess (1)" position="(282.0, 544.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="2" sink_node_id="1" source_channel="Preprocessed Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04)\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01M\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xb7\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00}', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00t\x00\x00\x00\xff\x00\x00\x04\xd1\x00\x00\x03!\x00\x00\x00}\x00\x00\x01%\x00\x00\x04\xc8\x00\x00\x03\x18\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'selected_id': 'core\\breast-cancer-wisconsin.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="pickle">gASVowkAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lEMyAdnQywACAAAAAADkAAAA1QAAA7UAAAO9
+AAAA7QAAAPsAAAOsAAADtAAAAAAAAAAAB4CUjAlzZWxlY3Rpb26UXZRNcwGMFW51bXB5LmNvcmUu
+bXVsdGlhcnJheZSMBnNjYWxhcpSTlIwFbnVtcHmUjAVkdHlwZZSTlIwCdTGUiYiHlFKUKEsDjAF8
+lE5OTkr/////Sv////9LAHSUYkMBAZSGlFKUhpRhjBF0b29sdGlwX3Nob3dzX2FsbJSIjAVncmFw
+aJR9lCiMC2FscGhhX3ZhbHVllEuAjA1jbGFzc19kZW5zaXR5lImMC2ppdHRlcl9zaXpllEsKjBNs
+YWJlbF9vbmx5X3NlbGVjdGVklImMFm9ydGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lk
+dGiUSwqMCXNob3dfZ3JpZJSJjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIl1jAtfX3Zl
+cnNpb25fX5RLBIwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SM
+B0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjAR0eXBllEtlhpSMCmF0
+dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+G
+lIwGYXR0cl94lIwPQ2x1bXAgdGhpY2tuZXNzlEtmhpSMBmF0dHJfeZSMD1VuaWZfQ2VsbF9TaGFw
+ZZRLZoaUaBh9lGgjSwR1jAphdHRyaWJ1dGVzlH2UKGg3SwKMDlVuaWZfQ2VsbF9TaXpllEsCaDpL
+AowRTWFyZ2luYWxfQWRoZXNpb26USwKMEFNpbmdsZV9DZWxsX1NpemWUSwKMC0JhcmVfTnVjbGVp
+lEsCjBBCbGFuZF9DaHJvbWF0aW5llEsCjA9Ob3JtYWxfTnVjbGVvbGmUSwKMB01pdG9zZXOUSwJo
+LksBdYwFbWV0YXOUfZR1YmgoKYGUfZQoaCt9lChoLYwKcmVjdXJyZW5jZZRLZYaUaDBOSv7///+G
+lGgyTkr+////hpRoNE5K/v///4aUaDaMA2FnZZRLZoaUaDmMCnR1bW9yLXNpemWUS2aGlGgYfZRo
+I0sEdWg9fZQoaFBLAowJbWVub3BhdXNllEsCaFJLAowJaW52LW5vZGVzlEsCjAlub2RlLWNhcHOU
+SwKMCWRlZy1tYWxpZ5RLAowGYnJlYXN0lEsCjAticmVhc3QtcXVhZJRLAowIaXJyYWRpYXSUSwJo
+S0sBdWhGfZR1YmgoKYGUfZQoaCt9lCiMCmF0dHJfY29sb3KUjApyZWN1cnJlbmNllEtlhpSMCmF0
+dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+G
+lIwGYXR0cl94lIwDYWdllEtmhpSMBmF0dHJfeZSMCnR1bW9yLXNpemWUS2aGlIwFZ3JhcGiUfZRo
+I0sEdWg9fZQoaGtLAowJbWVub3BhdXNllEsCaG5LAowJaW52LW5vZGVzlEsCjAlub2RlLWNhcHOU
+SwKMCWRlZy1tYWxpZ5RLAowGYnJlYXN0lEsCjAticmVhc3QtcXVhZJRLAowIaXJyYWRpYXSUSwJo
+YksBdWhGfZR1YmgoKYGUfZQoaCt9lCiMCmF0dHJfY29sb3KUjApyZWN1cnJlbmNllEtlhpSMCmF0
+dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+G
+lIwGYXR0cl94lIwDYWdllEtmhpSMBmF0dHJfeZSMCW1lbm9wYXVzZZRLZoaUjAVncmFwaJR9lGgj
+SwR1aD19lChoiEsCaItLAowKdHVtb3Itc2l6ZZRLAowJaW52LW5vZGVzlEsCjAlub2RlLWNhcHOU
+SwKMCWRlZy1tYWxpZ5RLAowGYnJlYXN0lEsCjAticmVhc3QtcXVhZJRLAowIaXJyYWRpYXSUSwJo
+f0sBdWhGfZR1YmgoKYGUfZQoaCt9lChofmh/S2WGlGiBTkr+////hpRog05K/v///4aUaIVOSv7/
+//+GlGiHaIhLZoaUaIpoi0tmhpRojX2UaCNLBHVoPX2UKGiISwJoi0sCaJBLAmiRSwJokksCaJNL
+AmiUSwJolUsCaJZLAmh/SwF1aEZ9lHViaCgpgZR9lChoK32UKGh+aH9LZYaUaIFOSv7///+GlGiD
+Tkr+////hpRohU5K/v///4aUaIeMCWFnZT0yMC0yOZRLZoaUaIqMCWFnZT0zMC0zOZRLZoaUaI19
+lGgjSwR1aD19lChoq0sCaK1LAowJYWdlPTQwLTQ5lEsCjAlhZ2U9NjAtNjmUSwKMCWFnZT03MC03
+OZRLAowObWVub3BhdXNlPWdlNDCUSwKMDm1lbm9wYXVzZT1sdDQwlEsCjA50dW1vci1zaXplPTAt
+NJRLAowOdHVtb3Itc2l6ZT01LTmUSwKMEHR1bW9yLXNpemU9MTAtMTSUSwKMEHR1bW9yLXNpemU9
+MTUtMTmUSwKMEHR1bW9yLXNpemU9MjAtMjSUSwKMEHR1bW9yLXNpemU9MjUtMjmUSwKMEHR1bW9y
+LXNpemU9MzUtMzmUSwKMEHR1bW9yLXNpemU9NDAtNDSUSwKMEHR1bW9yLXNpemU9NDUtNDmUSwKM
+EHR1bW9yLXNpemU9NTAtNTSUSwKMDWludi1ub2Rlcz0zLTWUSwKMDWludi1ub2Rlcz02LTiUSwKM
+Dmludi1ub2Rlcz05LTExlEsCjA9pbnYtbm9kZXM9MTItMTSUSwKMD2ludi1ub2Rlcz0xNS0xN5RL
+AowNbm9kZS1jYXBzPXllc5RLAowLZGVnLW1hbGlnPTGUSwKMC2RlZy1tYWxpZz0zlEsCjAxicmVh
+c3Q9cmlnaHSUSwKME2JyZWFzdC1xdWFkPWNlbnRyYWyUSwKME2JyZWFzdC1xdWFkPWxlZnRfdXCU
+SwKMFWJyZWFzdC1xdWFkPXJpZ2h0X2xvd5RLAowUYnJlYXN0LXF1YWQ9cmlnaHRfdXCUSwKMDGly
+cmFkaWF0PXllc5RLAmh/SwF1aEZ9lHViZXUu
+</properties>
+		<properties node_id="2" format="pickle">gASVOwEAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQzIB2dDLAAIAAAAAAg0AAADjAAAFcwAAAwUAAAIWAAABCQAABWoAAAL8
+AAAAAAAAAAAHgJSMDnN0b3JlZHNldHRpbmdzlH2UKIwEbmFtZZSMAJSMDXByZXByb2Nlc3NvcnOU
+XZSMHG9yYW5nZS5wcmVwcm9jZXNzLmNvbnRpbnVpemWUfZSMFW11bHRpbm9taWFsX3RyZWF0bWVu
+dJSMHE9yYW5nZS5wcmVwcm9jZXNzLnByZXByb2Nlc3OUjB9Db250aW51aXplLk11bHRpbm9taWFs
+VHJlYXRtZW50lJOUSwiFlFKUc4aUYXWMC19fdmVyc2lvbl9flEsCdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
